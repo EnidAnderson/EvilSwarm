@@ -1,0 +1,15 @@
+[package]
+name = "evilswarm"
+version = "0.1.0"
+edition = "2021"
+description = "The swarm spine: hash-chained double-entry ledger, typed move tokens, declared-field interface, capability-gated fragments, two representation homes, referee stub."
+
+[lib]
+name = "evilswarm"
+
+[[bin]]
+name = "gates"
+path = "src/bin/gates.rs"
+
+[profile.dev]
+debug = false
